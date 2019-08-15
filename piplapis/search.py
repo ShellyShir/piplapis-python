@@ -151,6 +151,7 @@ class SearchAPIRequest(object):
         :param phone: int/long. A national phone with no formatting.
         :param country_code: int. The phone country code
         :param zip_code: int. Address zip code
+        :param street: unicode, minimum 2 chars.
         :param raw_phone: string. A phone to be sent as-is, will be parsed by Pipl.
         :param username: unicode, minimum 3 chars.
         :param url: unicode, minimum 3 chars.
